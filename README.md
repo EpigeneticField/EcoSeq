@@ -15,19 +15,6 @@ Based on prior work by Naoko Iida (2)
 
 1. Glossary
 
-2. Dependencies
-
-3. Setup
-
-4. Input file preparation
-
-5. Running bash script
-
-6. Output file descriptions
-
-
-1. Glossary
-
 Eco-seq: Enzymatically Cleaved and Optimal Sequencing
 
 UMI: Unique Molecular Identifier, random 12-mer in this study
