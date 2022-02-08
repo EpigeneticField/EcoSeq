@@ -11,10 +11,10 @@ Based on prior work by Naoko Iida (2)
 (1) Division of Epigenomics, National Cancer Center Research Institute, Tokyo, Japan
 
 (2) Division of Genome Analysis Platform Development, National Cancer Center Research Institute, Tokyo, Japan
-
-
-
-
+　
+　
+　
+　
 1. Glossary
 
 Eco-seq: Enzymatically Cleaved and Optimal Sequencing
@@ -30,10 +30,10 @@ Duplex Sequencing (https://github.com/Kennedy-Lab-UW/Duplex-Sequencing/blob/mast
  DCS: Duplex Consensus Sequence
 
  Family: A group of reads sharing the same tag sequence
-
-
-
-
+　
+　
+　
+　
 2. Dependencies
 
 This bash script requires following programs with versions as specified:
