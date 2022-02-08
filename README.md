@@ -81,8 +81,7 @@ hg38.fa
 
 Illumina 150bp paired-end reads:
 
-Sample_a_1.fq.gz
-
+Sample_a_1.fq.gz<br />
 Sample_a_2.fq.gz
 
 
