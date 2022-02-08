@@ -13,6 +13,8 @@ Based on prior work by Naoko Iida (2)
 (2) Division of Genome Analysis Platform Development, National Cancer Center Research Institute, Tokyo, Japan
 
 
+
+
 1. Glossary
 
 Eco-seq: Enzymatically Cleaved and Optimal Sequencing
@@ -28,6 +30,8 @@ Duplex Sequencing (https://github.com/Kennedy-Lab-UW/Duplex-Sequencing/blob/mast
  DCS: Duplex Consensus Sequence
 
  Family: A group of reads sharing the same tag sequence
+
+
 
 
 2. Dependencies
@@ -57,6 +61,8 @@ Pysam (required for Duplex Sequencing software)
 BioPython (required for Duplex Sequencing software)
 
 
+
+
 3. Setup
 
 Ecoseq_v37.sh
@@ -80,6 +86,8 @@ mpileup2sync.jar (from popoolation2)
 hg38.fa
 
 
+
+
 4. Input file preparation
 
 Illumina 150bp paired-end reads:
@@ -98,11 +106,15 @@ Sample_b
 Sample_c
 
 
+
+
 5. Run the script as follows:
 
 ./Ecoseq_v37.sh <path to reference genome for bwa> <file with list of samples> <number of threads>
 
 Example: ./Ecoseq_v37.sh /Volumes/Ueda01/2001_Epi_duplexSeq/bwa/hg38 samples.txt 8
+
+
 
 
 6. Output file descriptions:
