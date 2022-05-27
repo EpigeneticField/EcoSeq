@@ -1,8 +1,8 @@
 # EcoSeq
 
-Version 3.7
+Version 7
 
-December 18, 2021
+May 26, 2022
 
 by Satoshi Yamashita (1) and Yuyu Liu (1)
 
@@ -57,7 +57,7 @@ BioPython (required for Duplex Sequencing software)
 <br /><br /><br /><br />
 3. Setup
 
-Ecoseq_v37.sh
+EcoSeq_2AutoSm_D.sh
 
 Make sure that the bash script is in the folder where you want your outputs.
 
@@ -65,9 +65,9 @@ Also make sure that the source folder (named "source") is in your working direct
 
 It should contain the following files:
 
-EcoseqR_v21.R
+R_EcoSeq_DCS.R
 
-dbSnp153Common3.bed
+dbSnp153Common3.bed (bedfile of common SNPs)
 
 hg38.ecoseq.blacklist.v1.bed
 
@@ -95,9 +95,9 @@ Sample_c<br />
 <br /><br /><br /><br />
 5. Run the script as follows:
 
-./Ecoseq_v37.sh <path to reference genome for bwa> <file with list of samples> <number of threads>
+./EcoSeq_2AutoSm_D.sh <path to reference genome for bwa> <file with list of samples> <number of threads>
 
-Example: ./Ecoseq_v37.sh /Volumes/Ueda01/2001_Epi_duplexSeq/bwa/hg38 samples.txt 8
+Example: ./EcoSeq_2AutoSm_D.sh /Volumes/EcoSeq04/EcoSeqII_testFastq/source/hg38 sample.txt 4
 <br /><br /><br /><br />
 6. Output file descriptions:
 
