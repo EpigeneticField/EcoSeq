@@ -39,17 +39,22 @@ Duplex Sequencing software Version 3.0 July 11, 2016 Programs (our bash script h
 
 R >3.6
 
+Java
+
 gzip
 
 fastp
 
 bwa
 
+bedtools
+
 samtools >1.9
 
 popoolation2 https://github.com/popgenvienna/popoolation2
 
 GenomonFisher https://github.com/Genomon-Project/GenomonFisher
+(Please use v0.4.7 if using Python 3)
 
 Pysam (required for Duplex Sequencing software)
 
