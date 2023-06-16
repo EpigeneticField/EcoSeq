@@ -33,7 +33,7 @@ Duplex Sequencing (https://github.com/Kennedy-Lab-UW/Duplex-Sequencing/blob/mast
 
 This bash script requires following programs with versions as specified:
 
-Python >3.7 or >2.7
+Python >3.7 or >2.7 (If using Python 3, please replace all commands with 'python' by 'python3' in the EcoSeq_2AutoSm_D.sh file)
 
 Duplex Sequencing software Version 3.0 July 11, 2016 Programs (our bash script has not yet adapted to the new Duplex Sequencing Pipeline software) https://github.com/Kennedy-Lab-UW/Duplex-Sequencing
 
